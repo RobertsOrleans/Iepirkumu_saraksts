@@ -1,0 +1,82 @@
+body {
+    background-color: lightgray;
+}
+
+#gradient {
+    height: 1000px;
+    background-color: lightgray;
+    background-image: linear-gradient(#b1dbf7,rgb(97, 153, 216));
+}
+
+@font-face {
+    font-family: 'Corbel';
+    src: url("font/CORBEL.TTF");
+}
+
+h1 {
+    font-family: 'Corbel';
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#add {
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    height: 45px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#produkts {
+    margin: 5px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+}
+
+#daudzums {
+    margin: 5px;
+    width: 125px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+}
+
+#add-button {
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    border-radius: 25px;
+    height: 35px;
+    width: 40px;
+}
+
+.plus {
+    justify-content: center;
+    align-items: center;
+}
+
+#saraksts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pirkums {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 200px;
+    width: 150px;
+    padding: 15px;
+    margin: 20px;
+    background-color: darkkhaki;
+}
