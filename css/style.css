@@ -4,7 +4,8 @@ body {
 }
 
 #gradient {
-    height: 1000px;
+    height: 100%;
+    width: 100%;
     background-color: lightgray;
     background-image: linear-gradient(#b1dbf7,rgb(97, 153, 216));
 }
